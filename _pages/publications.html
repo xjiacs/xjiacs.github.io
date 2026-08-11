@@ -8,21 +8,29 @@ author_profile: true
 {% assign pubs = site.publications | sort: "order" %}
 
 {% for category in site.publication_category %}
-{% assign title_shown = false %}
-{% for pub in pubs %}
-{% if pub.category == category[0] %}
-{% unless title_shown %}
-## {{ category[1].title }}
-{% assign title_shown = true %}
-{% endunless %}
+  {% assign category_has_pubs = false %}
+  {% for pub in pubs %}
+    {% if pub.category == category[0] %}
+      {% assign category_has_pubs = true %}
+    {% endif %}
+  {% endfor %}
 
-### {{ pub.title }}
-{{ pub.citation }}
+  {% if category_has_pubs %}
+    <h2>{{ category[1].title }}</h2>
 
-{% if pub.paperurl %}[Paper]({{ pub.paperurl }}){% endif %}
-
-{{ pub.excerpt }}
-
-{% endif %}
-{% endfor %}
+    {% for pub in pubs %}
+      {% if pub.category == category[0] %}
+        <article class="archive__item">
+          <h3 class="archive__item-title">{{ pub.title }}</h3>
+          <p>{{ pub.citation }}</p>
+          {% if pub.paperurl %}
+            <p><a href="{{ pub.paperurl }}">Paper</a></p>
+          {% endif %}
+          {% if pub.excerpt %}
+            <p>{{ pub.excerpt }}</p>
+          {% endif %}
+        </article>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}

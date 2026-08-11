@@ -7,7 +7,7 @@ order: 2
 venue: "Findings of ACL 2026"
 excerpt: "A risk-constrained bilevel Stackelberg framework for automated contract revision, where a global prescriptive agent imposes explicit risk budgets on revision and verification agents to enable risk-aware optimization with theoretical convergence guarantees."
 paperurl: "https://aclanthology.org/2026.findings-acl.935/"
-citation: '<strong><u>Shijia Xu</u></strong>, Yu Wang, Xiaolong Jia, Zhou Wu, Kai Liu, April Xiaowen Dong. <em>Findings of ACL 2026</em>.'
+citation: "Shijia Xu, Yu Wang, Xiaolong Jia, Zhou Wu, Kai Liu, April Xiaowen Dong. Findings of ACL 2026."
 ---
 
 A risk-constrained bilevel Stackelberg framework for automated contract revision, where a global prescriptive agent imposes explicit risk budgets on revision and verification agents to enable risk-aware optimization with theoretical convergence guarantees.

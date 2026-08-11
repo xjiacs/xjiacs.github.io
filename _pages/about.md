@@ -28,15 +28,27 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 
 # Selected publications
 
-{% assign pubs = site.publications | sort: "order" %}
-{% for pub in pubs limit:5 %}
-**{{ pub.title }}**  
-{{ pub.citation }}  
-{% if pub.paperurl %}[Paper]({{ pub.paperurl }}){% endif %}
+### [Self-Correcting RAG: Enhancing Faithfulness via MMKP Context Selection and NLI-Guided MCTS](https://aclanthology.org/2026.findings-acl.1052/)
+**Shijia Xu**, Zhou Wu, Xiaolong Jia, Yu Wang, Kai Liu, April Xiaowen Dong.  
+*Findings of ACL 2026*. [Paper](https://aclanthology.org/2026.findings-acl.1052/)
 
-{% endfor %}
+### [RCBSF: A Multi-Agent Framework for Automated Contract Revision via Stackelberg Game](https://aclanthology.org/2026.findings-acl.935/)
+**Shijia Xu**, Yu Wang, Xiaolong Jia, Zhou Wu, Kai Liu, April Xiaowen Dong.  
+*Findings of ACL 2026*. [Paper](https://aclanthology.org/2026.findings-acl.935/)
 
-[See all publications →](/publications/)
+### [LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction](https://dl.acm.org/doi/full/10.1145/3805622.3810571)
+Di Xiao, Yuhan Gou, Yu Ren, **Shijia Xu**, Yue Zhang.  
+*ICMR 2026*. [Paper](https://dl.acm.org/doi/full/10.1145/3805622.3810571)
+
+### State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models
+**Shijia Xu**, Wang Xi.  
+*NeurIPS 2026 (In Submission).*
+
+### Resource-Aware Federated LoRA Fine-Tuning for Heterogeneous Environments
+Xiaolong Jia, Ahmed M. Abdelmoniem, **Shijia Xu**, Gaoyang Liu, Chen Wang.  
+*NeurIPS 2026 (In Submission).*
+
+[See all publications](/publications/)
 
 # Education
 
