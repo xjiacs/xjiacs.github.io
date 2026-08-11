@@ -62,7 +62,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 
 - **Jun. 2026** — Started my visiting research at **Queen Mary University of London**, focusing on NLP and RAG for reliable and reasoning-capable large language models.
 - **May 2026** — Our paper **LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction** was accepted to **ICMR 2026**.
-- **Apr. 2026** — Two first-author papers, **Self-Correcting RAG** and **RCBSF**, were accepted to **Findings of ACL 2026**.
+- **Apr. 2026** — Two first-author papers, **Self-Correcting RAG** and **RCBSF**, were accepted to **ACL 2026**.
 
 # Research interests
 
@@ -74,13 +74,12 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 # Selected publications
 
 <div class="publication-list">
-
 <div class="publication-item">
   <div class="publication-thumb"><img src="{{ '/images/publications/self-correcting-rag.png' | relative_url }}" alt="Self-Correcting RAG overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">Self-Correcting RAG: Enhancing Faithfulness via MMKP Context Selection and NLI-Guided MCTS</h3>
     <p class="publication-authors"><strong>Shijia Xu</strong>, Zhou Wu, Xiaolong Jia, Yu Wang, Kai Liu, April Xiaowen Dong.</p>
-    <p class="publication-venue"><em>Findings of ACL 2026</em>.</p>
+    <p class="publication-venue"><em>ACL 2026</em>.</p>
     <p class="publication-links">[<a href="https://aclanthology.org/2026.findings-acl.1052/" target="_blank" rel="noopener">Paper</a>] [<a href="https://github.com/xjiacs/Self-Correcting-RAG" target="_blank" rel="noopener">Code</a>]</p>
   </div>
 </div>
@@ -90,10 +89,11 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
   <div class="publication-content">
     <h3 class="publication-title">RCBSF: A Multi-Agent Framework for Automated Contract Revision via Stackelberg Game</h3>
     <p class="publication-authors"><strong>Shijia Xu</strong>, Yu Wang, Xiaolong Jia, Zhou Wu, Kai Liu, April Xiaowen Dong.</p>
-    <p class="publication-venue"><em>Findings of ACL 2026</em>.</p>
+    <p class="publication-venue"><em>ACL 2026</em>.</p>
     <p class="publication-links">[<a href="https://aclanthology.org/2026.findings-acl.935/" target="_blank" rel="noopener">Paper</a>] [<a href="https://github.com/xjiacs/RCBSF" target="_blank" rel="noopener">Code</a>]</p>
   </div>
 </div>
+
 
 <div class="publication-item">
   <div class="publication-thumb"><img src="{{ '/images/publications/llm-guided-secure-federated-visual-prompts.png' | relative_url }}" alt="Federated MRI reconstruction overview"></div>
@@ -135,13 +135,12 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 
 - **[Chongqing University](https://www.cqu.edu.cn/)**, Chongqing, China  
   *M.E. Candidate in Control Science and Engineering*, Sep. 2024 – Jul. 2027.  
-  GPA: **4.09/5.00**, Rank: **2/74**. Advisor: Prof. Zhou Wu. Research interests: trustworthy LLMs, RAG, and explainable NLP.
+  Advisor: Prof. Zhou Wu. Research interests: trustworthy LLMs, RAG, and explainable NLP.
 
 - **[Shandong University of Science and Technology](https://www.sdust.edu.cn/)**, Qingdao, China  
   *B.E. in Automation*, Sep. 2020 – Jul. 2024.  
-  GPA: **4.03/5.00**, Rank: **3/163**.
 
-# Selected honors & awards
+# Selected Honors & Awards
 
 - Chongqing University First Prize Master's Academic Scholarship, **2024 & 2025**
 - Chongqing University Merit Student, **2025**
