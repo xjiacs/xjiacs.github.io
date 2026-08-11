@@ -7,6 +7,46 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+.publication-list { margin-top: 1rem; }
+.publication-item {
+  display: flex;
+  gap: 1.15rem;
+  align-items: flex-start;
+  margin: 0 0 1.55rem 0;
+  padding: 0 0 1.35rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+.publication-thumb {
+  flex: 0 0 190px;
+  width: 190px;
+}
+.publication-thumb img {
+  display: block;
+  width: 100%;
+  height: 118px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid var(--global-border-color);
+  background: #fff;
+}
+.publication-content { flex: 1 1 auto; min-width: 0; }
+.publication-title {
+  margin: 0 0 0.28rem 0 !important;
+  font-size: 1.02em !important;
+  line-height: 1.35;
+}
+.publication-authors, .publication-venue, .publication-links, .publication-excerpt {
+  margin: 0.18rem 0 !important;
+}
+.publication-links a { font-weight: 600; }
+@media (max-width: 720px) {
+  .publication-item { display: block; }
+  .publication-thumb { width: 100%; max-width: 300px; margin-bottom: 0.75rem; }
+  .publication-thumb img { height: auto; aspect-ratio: 16 / 9; }
+}
+</style>
+
 Hi! I am **Shijia Xu**, a Master's candidate in **Control Science and Engineering at [Chongqing University](https://www.cqu.edu.cn/)**, advised by Prof. **Zhou Wu**. I am currently a **Visiting Research Student in Computer Science at [Queen Mary University of London](https://www.qmul.ac.uk/)**, hosted by Prof. **Ahmed M. A. Sayed**.
 
 My research interests lie in **trustworthy large language models**, **retrieval-augmented generation (RAG)**, **reasoning**, and **explainable NLP**. I am particularly interested in building language-model systems that can retrieve useful evidence, verify intermediate reasoning, and remain reliable under practical constraints.
@@ -16,8 +56,8 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 # News
 
 - **Jun. 2026** — Started my visiting research at **Queen Mary University of London**, focusing on NLP and RAG for reliable and reasoning-capable large language models.
-- **2026** — Two first-author papers, **Self-Correcting RAG** and **RCBSF**, were accepted to **Findings of ACL 2026**.
-- **2026** — Our work **LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction** was accepted to **ICMR 2026**.
+- **May 2026** — Our paper **LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction** was accepted to **ICMR 2026**.
+- **Apr. 2026** — Two first-author papers, **Self-Correcting RAG** and **RCBSF**, were accepted to **Findings of ACL 2026**.
 
 # Research interests
 
@@ -28,25 +68,57 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 
 # Selected publications
 
-### [Self-Correcting RAG: Enhancing Faithfulness via MMKP Context Selection and NLI-Guided MCTS](https://aclanthology.org/2026.findings-acl.1052/)
-**Shijia Xu**, Zhou Wu, Xiaolong Jia, Yu Wang, Kai Liu, April Xiaowen Dong.  
-*Findings of ACL 2026*. [Paper](https://aclanthology.org/2026.findings-acl.1052/)
+<div class="publication-list">
 
-### [RCBSF: A Multi-Agent Framework for Automated Contract Revision via Stackelberg Game](https://aclanthology.org/2026.findings-acl.935/)
-**Shijia Xu**, Yu Wang, Xiaolong Jia, Zhou Wu, Kai Liu, April Xiaowen Dong.  
-*Findings of ACL 2026*. [Paper](https://aclanthology.org/2026.findings-acl.935/)
+<div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/self-correcting-rag.svg' | relative_url }}" alt="Self-Correcting RAG overview"></div>
+  <div class="publication-content">
+    <h3 class="publication-title">Self-Correcting RAG: Enhancing Faithfulness via MMKP Context Selection and NLI-Guided MCTS</h3>
+    <p class="publication-authors"><strong>Shijia Xu</strong>, Zhou Wu, Xiaolong Jia, Yu Wang, Kai Liu, April Xiaowen Dong.</p>
+    <p class="publication-venue"><em>Findings of ACL 2026</em>.</p>
+    <p class="publication-links">[<a href="https://aclanthology.org/2026.findings-acl.1052/" target="_blank" rel="noopener">Paper</a>] [<a href="https://github.com/xjiacs/Self-Correcting-RAG" target="_blank" rel="noopener">Code</a>]</p>
+  </div>
+</div>
 
-### [LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction](https://dl.acm.org/doi/full/10.1145/3805622.3810571)
-Di Xiao, Yuhan Gou, Yu Ren, **Shijia Xu**, Yue Zhang.  
-*ICMR 2026*. [Paper](https://dl.acm.org/doi/full/10.1145/3805622.3810571)
+<div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/rcbsf.svg' | relative_url }}" alt="RCBSF overview"></div>
+  <div class="publication-content">
+    <h3 class="publication-title">RCBSF: A Multi-Agent Framework for Automated Contract Revision via Stackelberg Game</h3>
+    <p class="publication-authors"><strong>Shijia Xu</strong>, Yu Wang, Xiaolong Jia, Zhou Wu, Kai Liu, April Xiaowen Dong.</p>
+    <p class="publication-venue"><em>Findings of ACL 2026</em>.</p>
+    <p class="publication-links">[<a href="https://aclanthology.org/2026.findings-acl.935/" target="_blank" rel="noopener">Paper</a>] [<a href="https://github.com/xjiacs/RCBSF" target="_blank" rel="noopener">Code</a>]</p>
+  </div>
+</div>
 
-### State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models
-**Shijia Xu**, Wang Xi.  
-*NeurIPS 2026 (In Submission).*
+<div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/llm-guided-secure-federated-visual-prompts.svg' | relative_url }}" alt="Federated MRI reconstruction overview"></div>
+  <div class="publication-content">
+    <h3 class="publication-title">LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction</h3>
+    <p class="publication-authors">Di Xiao, Yuhan Gou, Yu Ren, <strong>Shijia Xu</strong>, Yue Zhang.</p>
+    <p class="publication-venue"><em>ICMR 2026</em>.</p>
+    <p class="publication-links">[<a href="https://dl.acm.org/doi/full/10.1145/3805622.3810571" target="_blank" rel="noopener">Paper</a>]</p>
+  </div>
+</div>
 
-### Resource-Aware Federated LoRA Fine-Tuning for Heterogeneous Environments
-Xiaolong Jia, Ahmed M. Abdelmoniem, **Shijia Xu**, Gaoyang Liu, Chen Wang.  
-*NeurIPS 2026 (In Submission).*
+<div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/state-copying-crowds-out-reasoning.svg' | relative_url }}" alt="Delta planning overview"></div>
+  <div class="publication-content">
+    <h3 class="publication-title">State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models</h3>
+    <p class="publication-authors"><strong>Shijia Xu</strong>, Wang Xi.</p>
+    <p class="publication-venue"><em>NeurIPS 2026 (In Submission)</em>.</p>
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/resource-aware-federated-lora.svg' | relative_url }}" alt="Resource-aware federated LoRA overview"></div>
+  <div class="publication-content">
+    <h3 class="publication-title">Resource-Aware Federated LoRA Fine-Tuning for Heterogeneous Environments</h3>
+    <p class="publication-authors">Xiaolong Jia, Ahmed M. Abdelmoniem, <strong>Shijia Xu</strong>, Gaoyang Liu, Chen Wang.</p>
+    <p class="publication-venue"><em>NeurIPS 2026 (In Submission)</em>.</p>
+  </div>
+</div>
+
+</div>
 
 [See all publications](/publications/)
 

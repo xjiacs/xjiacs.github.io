@@ -5,6 +5,44 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.publication-list { margin-top: 1rem; }
+.publication-item {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+  margin: 0 0 1.7rem 0;
+  padding: 0 0 1.45rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+.publication-thumb { flex: 0 0 210px; width: 210px; }
+.publication-thumb img {
+  display: block;
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid var(--global-border-color);
+  background: #fff;
+}
+.publication-content { flex: 1 1 auto; min-width: 0; }
+.publication-title {
+  margin: 0 0 0.3rem 0 !important;
+  font-size: 1.04em !important;
+  line-height: 1.35;
+}
+.publication-authors, .publication-venue, .publication-links, .publication-excerpt {
+  margin: 0.2rem 0 !important;
+}
+.publication-links a { font-weight: 600; }
+.publication-excerpt { margin-top: 0.45rem !important; color: var(--global-text-color-light); }
+@media (max-width: 720px) {
+  .publication-item { display: block; }
+  .publication-thumb { width: 100%; max-width: 320px; margin-bottom: 0.8rem; }
+  .publication-thumb img { height: auto; aspect-ratio: 16 / 9; }
+}
+</style>
+
 {% assign pubs = site.publications | sort: "order" %}
 
 {% for category in site.publication_category %}
@@ -17,20 +55,32 @@ author_profile: true
 
   {% if category_has_pubs %}
     <h2>{{ category[1].title }}</h2>
-
+    <div class="publication-list">
     {% for pub in pubs %}
       {% if pub.category == category[0] %}
-        <article class="archive__item">
-          <h3 class="archive__item-title">{{ pub.title }}</h3>
-          <p>{{ pub.citation }}</p>
-          {% if pub.paperurl %}
-            <p><a href="{{ pub.paperurl }}">Paper</a></p>
-          {% endif %}
-          {% if pub.excerpt %}
-            <p>{{ pub.excerpt }}</p>
-          {% endif %}
+        <article class="publication-item">
+          <div class="publication-thumb">
+            {% if pub.image %}
+              {% if pub.paperurl %}<a href="{{ pub.paperurl }}" target="_blank" rel="noopener">{% endif %}
+                <img src="{{ pub.image | relative_url }}" alt="{{ pub.title | escape }} overview image">
+              {% if pub.paperurl %}</a>{% endif %}
+            {% endif %}
+          </div>
+          <div class="publication-content">
+            <h3 class="publication-title">{{ pub.title }}</h3>
+            <p class="publication-authors">{{ pub.citation }}</p>
+            {% if pub.venue %}<p class="publication-venue"><em>{{ pub.venue }}</em>.</p>{% endif %}
+            {% if pub.paperurl or pub.codeurl %}
+              <p class="publication-links">
+                {% if pub.paperurl %}[<a href="{{ pub.paperurl }}" target="_blank" rel="noopener">Paper</a>]{% endif %}
+                {% if pub.codeurl %} [<a href="{{ pub.codeurl }}" target="_blank" rel="noopener">Code</a>]{% endif %}
+              </p>
+            {% endif %}
+            {% if pub.excerpt %}<p class="publication-excerpt">{{ pub.excerpt }}</p>{% endif %}
+          </div>
         </article>
       {% endif %}
     {% endfor %}
+    </div>
   {% endif %}
 {% endfor %}

@@ -6,7 +6,8 @@ permalink: /publication/memsif/
 order: 7
 venue: "AAAI 2027 (In Submission)"
 excerpt: "Introduces MemSIF, combining structured interaction memory with CoreFact and ActiveFact tracks to improve long-term agent memory on LoCoMo and LongMemEval-S."
-citation: "Yufei Luo, Shijia Xu, Guangyuan Dong, Xiucheng Xu. AAAI 2027 (In Submission)."
+image: "/images/publications/memsif.png"
+citation: "Yufei Luo, <strong>Shijia Xu</strong>, Guangyuan Dong, Xiucheng Xu."
 ---
 
-Introduces MemSIF, combining structured interaction memory with CoreFact and ActiveFact tracks to improve long-term agent memory on LoCoMo and LongMemEval-S.
+MemSIF combines structured interactions with dual-track fact memory for long-term LLM-agent memory.
