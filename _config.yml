@@ -23,7 +23,7 @@ repository               : "xjiacs/xjiacs.github.io" # TODO: replace YOUR_GITHUB
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "xjiacs.github.io\images\new_xsj.jpg"
+  avatar           : "new_xsj.jpg"
   name             : "Shijia Xu"
   pronouns         : # example: "she/her"  
   bio              : "Master's candidate at Chongqing University; Visiting Research Student at Queen Mary University of London. Trustworthy LLMs, RAG, reasoning, and explainable NLP."
