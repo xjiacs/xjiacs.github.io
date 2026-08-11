@@ -8,7 +8,7 @@ venue: "Findings of ACL 2026"
 excerpt: "A unified RAG framework that formulates context selection as a multi-dimensional multiple-choice knapsack problem under a strict token budget and uses NLI-guided Monte Carlo Tree Search to explore and verify reasoning trajectories."
 paperurl: "https://aclanthology.org/2026.findings-acl.1052/"
 codeurl: "https://github.com/xjiacs/Self-Correcting-RAG"
-image: "/images/publications/self-correcting-rag.pdf"
+image: "/images/publications/self-correcting-rag.png"
 citation: "<strong>Shijia Xu</strong>, Zhou Wu, Xiaolong Jia, Yu Wang, Kai Liu, April Xiaowen Dong."
 ---
 

@@ -18,16 +18,21 @@ redirect_from:
   border-bottom: 1px solid var(--global-border-color);
 }
 .publication-thumb {
-  flex: 0 0 190px;
-  width: 190px;
+  flex: 0 0 235px;
+  width: 235px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 .publication-thumb img {
   display: block;
   width: 100%;
-  height: 118px;
-  object-fit: cover;
-  border-radius: 5px;
-  border: 1px solid var(--global-border-color);
+  height: auto;
+  max-height: 165px;
+  object-fit: contain;
+  object-position: center top;
+  border-radius: 4px;
+  border: 0;
   background: #fff;
 }
 .publication-content { flex: 1 1 auto; min-width: 0; }
@@ -42,8 +47,8 @@ redirect_from:
 .publication-links a { font-weight: 600; }
 @media (max-width: 720px) {
   .publication-item { display: block; }
-  .publication-thumb { width: 100%; max-width: 300px; margin-bottom: 0.75rem; }
-  .publication-thumb img { height: auto; aspect-ratio: 16 / 9; }
+  .publication-thumb { width: 100%; max-width: 360px; margin-bottom: 0.75rem; }
+  .publication-thumb img { width: 100%; height: auto; max-height: none; object-fit: contain; }
 }
 </style>
 
@@ -71,7 +76,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 <div class="publication-list">
 
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/self-correcting-rag.svg' | relative_url }}" alt="Self-Correcting RAG overview"></div>
+  <div class="publication-thumb"><img src="{{ '/images/publications/self-correcting-rag.png' | relative_url }}" alt="Self-Correcting RAG overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">Self-Correcting RAG: Enhancing Faithfulness via MMKP Context Selection and NLI-Guided MCTS</h3>
     <p class="publication-authors"><strong>Shijia Xu</strong>, Zhou Wu, Xiaolong Jia, Yu Wang, Kai Liu, April Xiaowen Dong.</p>
@@ -81,7 +86,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 </div>
 
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/rcbsf.svg' | relative_url }}" alt="RCBSF overview"></div>
+  <div class="publication-thumb"><img src="{{ '/images/publications/rcbsf.png' | relative_url }}" alt="RCBSF overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">RCBSF: A Multi-Agent Framework for Automated Contract Revision via Stackelberg Game</h3>
     <p class="publication-authors"><strong>Shijia Xu</strong>, Yu Wang, Xiaolong Jia, Zhou Wu, Kai Liu, April Xiaowen Dong.</p>
@@ -91,7 +96,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 </div>
 
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/llm-guided-secure-federated-visual-prompts.svg' | relative_url }}" alt="Federated MRI reconstruction overview"></div>
+  <div class="publication-thumb"><img src="{{ '/images/publications/llm-guided-secure-federated-visual-prompts.png' | relative_url }}" alt="Federated MRI reconstruction overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction</h3>
     <p class="publication-authors">Di Xiao, Yuhan Gou, Yu Ren, <strong>Shijia Xu</strong>, Yue Zhang.</p>
@@ -101,7 +106,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 </div>
 
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/state-copying-crowds-out-reasoning.svg' | relative_url }}" alt="Delta planning overview"></div>
+  <div class="publication-thumb"><img src="{{ '/images/publications/state-copying-crowds-out-reasoning.png' | relative_url }}" alt="Delta planning overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models</h3>
     <p class="publication-authors"><strong>Shijia Xu</strong>, Wang Xi.</p>
@@ -110,7 +115,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 </div>
 
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/resource-aware-federated-lora.svg' | relative_url }}" alt="Resource-aware federated LoRA overview"></div>
+  <div class="publication-thumb"><img src="{{ '/images/publications/resource-aware-federated-lora.png' | relative_url }}" alt="Resource-aware federated LoRA overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">Resource-Aware Federated LoRA Fine-Tuning for Heterogeneous Environments</h3>
     <p class="publication-authors">Xiaolong Jia, Ahmed M. Abdelmoniem, <strong>Shijia Xu</strong>, Gaoyang Liu, Chen Wang.</p>

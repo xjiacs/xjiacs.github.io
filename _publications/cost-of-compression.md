@@ -6,7 +6,7 @@ permalink: /publication/cost-of-compression/
 order: 6
 venue: "EMNLP 2026 (In Submission)"
 excerpt: "Develops an information-theoretic coverage-compression framework that decomposes factual hallucination into compression distortion on observed facts and missing coverage on unseen facts."
-image: "/images/publications/cost-of-compression.pdf"
+image: "/images/publications/cost-of-compression.png"
 citation: "Wang Xi (co-first author), <strong>Shijia Xu</strong> (co-first author), Rongfeng Guo."
 ---
 
