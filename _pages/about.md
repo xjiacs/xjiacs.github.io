@@ -104,15 +104,15 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
     <p class="publication-links">[<a href="https://dl.acm.org/doi/full/10.1145/3805622.3810571" target="_blank" rel="noopener">Paper</a>]</p>
   </div>
 </div>
-
 <div class="publication-item">
   <div class="publication-thumb"><img src="{{ '/images/publications/state-copying-crowds-out-reasoning.png' | relative_url }}" alt="Delta planning overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models</h3>
-    <p class="publication-authors"><strong>Shijia Xu</strong>, Wang Xi.</p>
+    <p class="publication-authors">Wang Xi (co-first author), <strong>Shijia Xu</strong> (co-first author).</p>
     <p class="publication-venue"><em>NeurIPS 2026 (In Submission)</em>.</p>
   </div>
 </div>
+
 
 <div class="publication-item">
   <div class="publication-thumb"><img src="{{ '/images/publications/resource-aware-federated-lora.png' | relative_url }}" alt="Resource-aware federated LoRA overview"></div>
