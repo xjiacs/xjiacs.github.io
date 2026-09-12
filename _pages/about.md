@@ -52,7 +52,7 @@ redirect_from:
 }
 </style>
 
-Hi! I am **Shijia Xu**, a Master's candidate in **Control Science and Engineering at [Chongqing University](https://www.cqu.edu.cn/)**, advised by Prof. **Zhou Wu**. I am currently a **Visiting Research Student in Computer Science at [Queen Mary University of London](https://www.qmul.ac.uk/)**, hosted by Prof. **Ahmed M. A. Sayed**.
+Hi! I am **Shijia Xu**, a Master's candidate in **Control Science and Engineering at [Chongqing University](https://www.cqu.edu.cn/)**, advised by Prof. **[Zhou Wu](https://accu.cqu.edu.cn/info/1375/9163.htm)**. I am currently a **Visiting Research Student in Computer Science at [Queen Mary University of London](https://www.qmul.ac.uk/)**, hosted by Prof. **[Ahmed M. A. Sayed](https://www.qmul.ac.uk/eecs/people/profiles/sayedahmed.html)**.
 
 My research interests lie in **trustworthy large language models**, **retrieval-augmented generation (RAG)**, **reasoning**, and **explainable NLP**. I am particularly interested in building language-model systems that can retrieve useful evidence, verify intermediate reasoning, and remain reliable under practical constraints.
 
@@ -60,6 +60,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 
 # News
 
+- **Sep. 2026** — Our paper **The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination** was accepted to **AACL 2026**.
 - **Jun. 2026** — Started my visiting research at **Queen Mary University of London**, focusing on NLP and RAG for reliable and reasoning-capable large language models.
 - **May 2026** — Our paper **LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction** was accepted to **ICMR 2026**.
 - **Apr. 2026** — Two first-author papers, **Self-Correcting RAG** and **RCBSF**, were accepted to **ACL 2026**.
@@ -94,6 +95,15 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
   </div>
 </div>
 
+
+<div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/cost-of-compression.png' | relative_url }}" alt="The Cost of Compression overview"></div>
+  <div class="publication-content">
+    <h3 class="publication-title">The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination</h3>
+    <p class="publication-authors">Wang Xi (co-first author), <strong>Shijia Xu</strong> (co-first author), Rongfeng Guo.</p>
+    <p class="publication-venue"><em>AACL 2026</em>.</p>
+  </div>
+</div>
 
 <div class="publication-item">
   <div class="publication-thumb"><img src="{{ '/images/publications/llm-guided-secure-federated-visual-prompts.png' | relative_url }}" alt="Federated MRI reconstruction overview"></div>
@@ -131,11 +141,11 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 
 - **[Queen Mary University of London](https://www.qmul.ac.uk/)**, London, United Kingdom  
   *Visiting Research Student in Computer Science*, Jun. 2026 – Dec. 2026.  
-  Host Supervisor: Prof. Ahmed M. A. Sayed. Research focus: NLP and RAG for reliable and reasoning-capable large language models. Supported by the Chongqing University Joint Training Program for Master's Students.
+  Host Supervisor: Prof. [Ahmed M. A. Sayed](https://www.qmul.ac.uk/eecs/people/profiles/sayedahmed.html). Research focus: NLP and RAG for reliable and reasoning-capable large language models. Supported by the Chongqing University Joint Training Program for Master's Students.
 
 - **[Chongqing University](https://www.cqu.edu.cn/)**, Chongqing, China  
   *M.E. Candidate in Control Science and Engineering*, Sep. 2024 – Jul. 2027.  
-  Advisor: Prof. Zhou Wu. Research interests: trustworthy LLMs, RAG, and explainable NLP.
+  Advisor: Prof. [Zhou Wu](https://accu.cqu.edu.cn/info/1375/9163.htm). Research interests: trustworthy LLMs, RAG, and explainable NLP.
 
 - **[Shandong University of Science and Technology](https://www.sdust.edu.cn/)**, Qingdao, China  
   *B.E. in Automation*, Sep. 2020 – Jul. 2024.  
