@@ -85,7 +85,6 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
     <p class="publication-links">[<a href="https://aclanthology.org/2026.findings-acl.1052/" target="_blank" rel="noopener">Paper</a>] [<a href="https://github.com/xjiacs/Self-Correcting-RAG" target="_blank" rel="noopener">Code</a>]</p>
   </div>
 </div>
-
 <div class="publication-item">
   <div class="publication-thumb"><img src="{{ '/images/publications/rcbsf.png' | relative_url }}" alt="RCBSF overview"></div>
   <div class="publication-content">
@@ -96,13 +95,14 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
   </div>
 </div>
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/skilldes_frame.png' | relative_url }}" alt="Delta planning overview"></div>
+  <div class="publication-thumb"><img src="{{ '/images/publications/state-copying-crowds-out-reasoning.png' | relative_url }}" alt="State Copying Crowds Out Reasoning overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models</h3>
     <p class="publication-authors">Wang Xi (co-first author), <strong>Shijia Xu</strong> (co-first author).</p>
     <p class="publication-venue"><em>NeurIPS 2026</em>.</p>
   </div>
 </div>
+
 
 
 <div class="publication-item">
@@ -125,6 +125,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 </div>
 
 <div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/skilldes_frame.png' | relative_url }}" alt="SkillDES overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">SkillDES: Dependency- and Evidence-Aware Skill-Set Selection for Composite Tasks</h3>
     <p class="publication-authors"><strong>Shijia Xu</strong>, Wang Xi, Wenyuan Ning, Delvin Ce Zhang, Jingping Liu, Zibin Zheng.</p>
