@@ -60,6 +60,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 
 # News
 
+- **Sep. 2026** — As a **co-first author**, our paper **State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models** was accepted to **NeurIPS 2026**.
 - **Sep. 2026** — Our paper **The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination** was accepted to **AACL 2026**.
 - **Jun. 2026** — Started my visiting research at **Queen Mary University of London**, focusing on NLP and RAG for reliable and reasoning-capable large language models.
 - **May 2026** — Our paper **LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction** was accepted to **ICMR 2026**.
@@ -70,7 +71,7 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 - **Trustworthy LLMs:** hallucination reduction, faithfulness, verification, and robust reasoning.
 - **Retrieval-Augmented Generation:** context selection, evidence grounding, and budget-aware retrieval.
 - **Reasoning and Planning:** mechanistic analysis of autoregressive reasoning and long-horizon planning.
-- **Efficient / Federated Adaptation:** resource-aware fine-tuning and privacy-preserving learning.
+- **Learning-Theoretic Reasoning:** analyzing representation, generalization, and optimization in structured reasoning.
 
 # Selected publications
 
@@ -94,6 +95,14 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
     <p class="publication-links">[<a href="https://aclanthology.org/2026.findings-acl.935/" target="_blank" rel="noopener">Paper</a>] [<a href="https://github.com/xjiacs/RCBSF" target="_blank" rel="noopener">Code</a>]</p>
   </div>
 </div>
+<div class="publication-item">
+  <div class="publication-thumb"><img src="{{ '/images/publications/skilldes_frame.png' | relative_url }}" alt="Delta planning overview"></div>
+  <div class="publication-content">
+    <h3 class="publication-title">State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models</h3>
+    <p class="publication-authors">Wang Xi (co-first author), <strong>Shijia Xu</strong> (co-first author).</p>
+    <p class="publication-venue"><em>NeurIPS 2026</em>.</p>
+  </div>
+</div>
 
 
 <div class="publication-item">
@@ -114,22 +123,21 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
     <p class="publication-links">[<a href="https://dl.acm.org/doi/full/10.1145/3805622.3810571" target="_blank" rel="noopener">Paper</a>]</p>
   </div>
 </div>
+
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/state-copying-crowds-out-reasoning.png' | relative_url }}" alt="Delta planning overview"></div>
   <div class="publication-content">
-    <h3 class="publication-title">State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models</h3>
-    <p class="publication-authors">Wang Xi (co-first author), <strong>Shijia Xu</strong> (co-first author).</p>
-    <p class="publication-venue"><em>NeurIPS 2026 (In Submission)</em>.</p>
+    <h3 class="publication-title">SkillDES: Dependency- and Evidence-Aware Skill-Set Selection for Composite Tasks</h3>
+    <p class="publication-authors"><strong>Shijia Xu</strong>, Wang Xi, Wenyuan Ning, Delvin Ce Zhang, Jingping Liu, Zibin Zheng.</p>
+    <p class="publication-venue"><em>ICLR 2027 (In Submission)</em>.</p>
   </div>
 </div>
 
-
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/resource-aware-federated-lora.png' | relative_url }}" alt="Resource-aware federated LoRA overview"></div>
+  <div class="publication-thumb"><img src="{{ '/images/publications/memsif.png' | relative_url }}" alt="MemSIF overview"></div>
   <div class="publication-content">
-    <h3 class="publication-title">Resource-Aware Federated LoRA Fine-Tuning for Heterogeneous Environments</h3>
-    <p class="publication-authors">Xiaolong Jia, Ahmed M. Abdelmoniem, <strong>Shijia Xu</strong>, Gaoyang Liu, Chen Wang.</p>
-    <p class="publication-venue"><em>NeurIPS 2026 (In Submission)</em>.</p>
+    <h3 class="publication-title">MemSIF: From Structured Interactions to Dual-Track Fact Memory for LLM Agents</h3>
+    <p class="publication-authors">Yufei Luo, <strong>Shijia Xu</strong>, Guangyuan Dong, Xiucheng Xu.</p>
+    <p class="publication-venue"><em>AAAI 2027 (In Submission)</em>.</p>
   </div>
 </div>
 

@@ -3,7 +3,7 @@ title: "The Cost of Compression: A Rate-Distortion Limit on Factual Hallucinatio
 collection: publications
 category: conferences
 permalink: /publication/cost-of-compression/
-order: 6
+order: 4
 venue: "AACL 2026"
 excerpt: "Establishes an information-theoretic coverage-compression framework that decomposes factual hallucination into compression distortion on observed facts and missing coverage on unseen facts."
 image: "/images/publications/cost-of-compression.png"
