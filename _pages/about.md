@@ -209,8 +209,8 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 - **Sep. 2026** — As a **co-first author**, our paper **State Copying Crowds Out Reasoning: Mechanistic Evidence for Delta Planning in Autoregressive Models** was accepted to **NeurIPS 2026**.
 - **Sep. 2026** — Our paper **[The Cost of Compression: A Rate-Distortion Limit on Factual Hallucination](https://arxiv.org/abs/2609.12111)** was accepted to **AACL 2026**.
 - **Jun. 2026** — Started my visiting research at **Queen Mary University of London**, focusing on NLP and RAG for reliable and reasoning-capable large language models.
-- **May 2026** — Our paper **LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction** was accepted to **ICMR 2026**.
-- **Apr. 2026** — Two first-author papers, **Self-Correcting RAG** and **RCBSF**, were accepted to **ACL 2026**.
+- **May 2026** — Our paper **[LLM-Guided Secure Federated Visual Prompts with Deep Unfolding for MRI Reconstruction](https://dl.acm.org/doi/full/10.1145/3805622.3810571)** was accepted to **ICMR 2026**.
+- **Apr. 2026** — Two first-author papers, **[Self-Correcting RAG](https://aclanthology.org/2026.findings-acl.1052/)** and **[RCBSF](https://aclanthology.org/2026.findings-acl.935/)**, were accepted to **ACL 2026**.
 
 # Research interests
 
