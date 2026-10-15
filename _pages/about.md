@@ -272,15 +272,6 @@ Please feel free to contact me at **shijiaxu@stu.cqu.edu.cn** if you are interes
 </div>
 
 <div class="publication-item">
-  <div class="publication-thumb"><img src="{{ '/images/publications/skilldes_frame.png' | relative_url }}" alt="SkillDES overview"></div>
-  <div class="publication-content">
-    <h3 class="publication-title">SkillDES: Dependency- and Evidence-Aware Skill-Set Selection for Composite Tasks</h3>
-    <p class="publication-authors"><strong>Shijia Xu</strong>, Wang Xi, Wenyuan Ning, Delvin Ce Zhang, Jingping Liu, Zibin Zheng.</p>
-    <p class="publication-venue"><span class="venue-tag submission">ICLR 2027 · In Submission</span></p>
-  </div>
-</div>
-
-<div class="publication-item">
   <div class="publication-thumb"><img src="{{ '/images/publications/memsif.png' | relative_url }}" alt="MemSIF overview"></div>
   <div class="publication-content">
     <h3 class="publication-title">MemSIF: From Structured Interactions to Dual-Track Fact Memory for LLM Agents</h3>
